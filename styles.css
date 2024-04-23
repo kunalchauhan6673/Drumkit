@@ -1,0 +1,89 @@
+body {
+  text-align: center;
+  background-color: #15161A;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+h1 {
+  font-size: 7rem;
+  color: #874F42;
+  text-shadow: 3px 0 #202833;
+
+}
+
+footer {
+  font-size: 1.8rem;
+  color: #874F42;
+}
+
+footer a {
+ text-decoration: none; 
+ color: #874F42;
+}
+footer a:hover {
+ color: #ffffff;
+}
+.q {
+  background-image: url("images/tom1.png");
+}
+
+.w {
+  background-image: url("images/tom2.png");
+}
+
+.e {
+  background-image: url("images/tom3.png");
+}
+
+.u {
+  background-image: url("images/tom4.png");
+}
+
+.i {
+  background-image: url("images/snare.png");
+}
+
+.o {
+  background-image: url("images/crash.png");
+}
+
+.p {
+  background-image: url("images/kick.png");
+}
+
+.set {
+  margin: 5% auto;
+}
+
+.game-over {
+  background-color: #874F42;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+  color: #202833;
+  text-shadow: 3px 0 #874F42;
+}
+
+.drum {
+  outline: none;
+  border: 3.9px solid #874F42;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #874F42;
+  text-shadow: 3px 0 #202833;
+  border-radius: 15px;
+  display: inline-block;
+  width: 135px;
+  height: 135px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+.drum:active{
+  color: #202833;
+  text-shadow: 3px 0 #874F42;
+}
